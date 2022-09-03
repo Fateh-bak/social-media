@@ -5,6 +5,7 @@ import NavBar from '../../components/navBar/navBar';
 function Home() {
   return <div className="container">
       <NavBar/>
+      <h1>Testing git & github connection!</h1>
   </div>;
 }
 
