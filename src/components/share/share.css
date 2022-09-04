@@ -1,0 +1,84 @@
+.share{
+    width: 100%;
+    padding: 30px;
+}
+
+.shareWraper{
+    box-shadow: 1px 2px 13px -4px rgba(0,0,0,0.33);
+    -webkit-box-shadow: 1px 2px 13px -4px rgba(0,0,0,0.33);
+    -moz-box-shadow: 1px 2px 13px -4px rgba(0,0,0,0.33);
+border-radius: 10px;
+padding: 10px;
+}
+
+.shareTop{
+    display: flex;
+    align-items: center;
+    margin: 10px 10px;
+}
+
+.shareImg{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.shareInput{
+    border: none;
+    width: 70%;
+    margin: 0 10px;
+}
+
+.shareInput:focus{
+    outline: none;
+}
+.shareHr{
+    margin: 10px;
+}
+.shareBottom{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.shareButton {
+    border: none;
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 6px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #34d976;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .shareButton:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+  .shareOptions{
+      display: flex;
+      align-items: center;
+      margin: 10px 0;
+
+  }
+
+  .shareOptionIcon{
+      margin: 0 10px;
+      font-size: xx-large !important;
+      cursor: pointer;
+  }
+  .shareOptionName{
+    font-weight: 500;
+    font-size: 15px;
+  }

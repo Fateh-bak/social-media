@@ -1,12 +1,19 @@
+import "./home.css"
 import React from 'react';
 import NavBar from '../../components/navBar/navBar';
+import RightBar from '../../components/rightBar/rightBar';
+import SideBar from '../../components/sideBar/sideBar';
+import Feed from "../../components/feed/feed";
 // import { Container } from './styles';
 
 function Home() {
-  return <div className="container">
-      <NavBar/>
-      <h1>Testing git & github connection!</h1>
-  </div>;
-}
+  return <>
+    <NavBar/>
+    <div className="body">
+        <SideBar/>
+        <Feed/>
+        <RightBar/>
+    </div>
+  </>}
 
 export default Home;
