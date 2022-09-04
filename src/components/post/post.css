@@ -1,5 +1,5 @@
 .post{
-    width: 100%;
+    width: 90%;
     padding: 30px;
 }
 .postWraper{
@@ -7,11 +7,12 @@
     -webkit-box-shadow: 1px 2px 13px -4px rgba(0,0,0,0.33);
     -moz-box-shadow: 1px 2px 13px -4px rgba(0,0,0,0.33);
     border-radius: 10px;
-    padding: 30px;
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
 }
 
 .postTop{
@@ -55,6 +56,7 @@
     
 }
 .postImg{
+    border-radius: 3px;
     max-height: 500px;
     object-fit: contain;
 }
