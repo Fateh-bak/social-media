@@ -5,7 +5,11 @@
     overflow-y: scroll;
     scrollbar-width: thin;
     scrollbar-color: rgb(184, 184, 184) #f1f1f1;
+    width: 25%;
+    padding: 25px;
     margin-top: 50px;
+    position: static;
+    z-index: -1;
     }
 
 

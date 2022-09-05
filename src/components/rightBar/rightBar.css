@@ -1,3 +1,13 @@
+
+.rightBar{
+    margin-top: 50px;
+    border: 1px black solid;    
+    position: static;
+    width: 25%;
+    padding: 30px;
+z-index: -1;
+
+}
 .rightBarWraper{
     display: flex;
     align-items: center;
@@ -7,7 +17,6 @@
 .rightBarBirthDay{
     display: flex;
     align-items: center;
-    border: 1px solid black;
 }
 .rightBarBirthDayDesc{
     font-size: 0.9rem;
@@ -16,7 +25,6 @@
 
 .rightBarAdSection{
     margin: 20px auto;
-    border: 1px solid black;
     display: flex;
     justify-content: center;
 
@@ -24,7 +32,6 @@
 .rightBarAdImg{
     width: 90%;
     margin: 10px auto;
-    border: 1px solid black;
 
 }
 .rightBarBirthDayImg{
@@ -42,7 +49,6 @@
 
 }
 .rightBarOnlineFriends{
-    border: 1px solid black;
     width: 100%;
     display: flex;
     align-items: center;
@@ -70,6 +76,7 @@
     border-radius: 50%;
 }
 .connected{
+    
     background-color: lawngreen;
     width: 10px;
     height: 10px;

@@ -1,0 +1,134 @@
+.homeRightBar {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.homeRightBarTopWraper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.homeImgContainer {
+  width: 100%;
+  position: relative;
+}
+
+.homeCoverImg {
+  width: 100%;
+  height: 300px;
+}
+.homeProfileImg {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: absolute;
+  top: 60%;
+  right: 45%;
+  border: 2px solid white;
+}
+
+.profileInfo {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profileName {
+  font-size: 20px;
+  font-weight: 700;
+}
+.profileDesc {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.homeRightBarBottom {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.profileFeed {
+  margin: 0;
+  width: 70%;
+}
+.profileRightBar {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+.feed {
+  width: 100%;
+}
+.rightBar {
+  width: 100%;
+}
+
+.userAbout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.userFriends {
+  margin: 20px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.friendsTxt {
+  margin: 10px 0;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+.friend {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+.friendImg {
+  width: 115px;
+  height: 115px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.friendName {
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+.aboutSection {
+    margin: 10px 0;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+.userAbout {
+  width: 100%;
+  display: flex;
+}
+.element {
+  margin: 5px;
+  font-size: 17px;
+  font-weight: 300;
+}
+.responseToElement {
+    color: gray;
+  margin: 5px;
+  font-size: 15px;
+  font-weight: 300;
+}
+.userAboutElement{
+    display: flex;
+    align-items: center;
+}

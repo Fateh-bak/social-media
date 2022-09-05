@@ -84,6 +84,7 @@
     width: 32;
     height: 32px;
     object-fit: cover;
+    cursor: pointer;
 }
 .postLikesNum{
     margin: 0 5px;
