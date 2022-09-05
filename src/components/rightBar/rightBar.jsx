@@ -1,6 +1,7 @@
 import "./rightBar.css"
 import React from 'react';
-
+import Online from "../online/online";
+import {Users} from "../../dummyData.js"
 // import { Container } from './styles';
 
 function RightBar() {
@@ -11,18 +12,13 @@ function RightBar() {
         <span className="rightBarBirthDayDesc"><b>you</b> and <b>no other than you </b>have a birthday today</span>
       </div>
       <div className="rightBarAdSection">
-        <img src="/assets/ad.png" alt="" className="rigtBarAdImg" />
+        <img src="/assets/ad.png" alt="" className="rightBarAdImg" />
       </div>
       <div className="rightBarOnlineFriends">
-        <span>online Friends</span>
-        <ul>
-          <li>
-            <div className="rightBarOnlineFriendContainer">
-              <img src="/assets/person/3.jpeg" alt="" className="onlineFriendImg" />
-              <span className="connected"></span>
-            </div>
-            <span className="onlineFriendName">Margorita shuuu</span>
-          </li>
+        <span className="rightBarOnlineFriendDesc">online Friends</span>
+        <ul className="rightBarUl">
+          {Users.map((u)=>(<Online key={u.id} user={u}/>))}
+          
         </ul>
       </div>
     </div>

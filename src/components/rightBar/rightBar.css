@@ -1,16 +1,85 @@
 .rightBarWraper{
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
 }
+.rightBarBirthDay{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+}
+.rightBarBirthDayDesc{
+    font-size: 0.9rem;
+}
+
+
+.rightBarAdSection{
+    margin: 20px auto;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+
+}
+.rightBarAdImg{
+    width: 90%;
+    margin: 10px auto;
+    border: 1px solid black;
+
+}
 .rightBarBirthDayImg{
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
     object-fit: cover;
 }
 
+
+
+.rightBarOnlineFriendContainer{
+    position: relative;
+    margin: 0 15px;
+
+}
+.rightBarOnlineFriends{
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rightBarListElemnt{
+    padding: 0;
+    margin: 10px 0;
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.rightBarUl{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
 .onlineFriendImg{
     width: 50px;
     height: 50px;
     object-fit: cover;
+    border-radius: 50%;
+}
+.connected{
+    background-color: lawngreen;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    right: 2px;    
+    border: 2px solid white;
+}
+.rightBarOnlineFriendDesc{
+    font-size: 1rem;
+    font-weight: 600;
 }

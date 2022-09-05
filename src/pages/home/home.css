@@ -12,19 +12,19 @@
 }
 
 .sideBar{
-    flex: 2;
+    width: 25%;
     padding: 25px;
 
     
 
 }
 .feed{
-    flex: 3;
+    width: 50%;
 
     
 }
 .rightBar{
-    flex: 3;
+    width: 25%;
     padding: 30px;
 }
 

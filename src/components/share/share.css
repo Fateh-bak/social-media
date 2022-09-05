@@ -2,6 +2,7 @@
     width: 90%;
     padding: 30px;
     border: none;
+    margin-top: 50px;
 
 }
 
@@ -79,10 +80,11 @@ padding: 10px;
 
   .shareOptionIcon{
       margin: 0 10px;
-      font-size: xx-large !important;
       cursor: pointer;
+      font-size: small !important;
+
   }
   .shareOptionName{
-    font-weight: 500;
-    font-size: 15px;
+    font-weight: 400;
+    font-size: 1rem;
   }
