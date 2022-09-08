@@ -9,11 +9,10 @@ import Feed from "../../components/feed/feed";
 function Home() {
   return <>
     <NavBar/>
-    <div className="body">
-        <SideBar/>
+    <div className="body"><SideBar/>
         <Feed/>
-        <RightBar/>
-    </div>
+        <RightBar/></div>
+        
   </>}
 
 export default Home;
